@@ -1,0 +1,15 @@
+[package]
+name = "Interoperable_gaming_asset_stanadard"
+version = "1.0.0"
+authors = []
+
+[addresses]
+Interoperablegamingassetstanadard = '0x4665c150f2303956eb7bbc1205ec61689d482748d2493644ae066a12dfc7d51f'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
